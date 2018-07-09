@@ -2,7 +2,7 @@
 sleep 30
 
 sudo apt-get update -y
-sudo apt-get install python-pip python-dev build-essential -y
+sudo apt-get install python-pip python-dev build-essential supervisor -y
 
 sudo mkdir -p /home/opt/todo
 sudo chown ubuntu /home/opt/todo
